@@ -1,1 +1,276 @@
-<!doctype html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>mi-bitacora</title><script defer="defer" src="/js/chunk-vendors.85d9eb5a.js"></script><script defer="defer" src="/js/app.c6550ebb.js"></script><link href="/css/chunk-vendors.583ee891.css" rel="stylesheet"><link href="/css/app.80182f8a.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but mi-bitacora doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!doctype html>
+<html lang="la">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f6f5ee" />
+    <meta
+      name="description"
+      content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    />
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="store.js" defer></script>
+    <title>Lorem — ipsum dolor sit amet</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" lang="es">Saltar al contenido</a>
+    <div class="announcement">
+      <span>Lorem ipsum dolor sit amet</span>
+      <span aria-hidden="true">✳</span>
+      <span>Consectetur adipiscing elit</span>
+    </div>
+
+    <header class="site-header">
+      <a class="wordmark" href="#" aria-label="Lorem, inicio"
+        >lorem<span aria-hidden="true">✳</span></a
+      >
+      <nav aria-label="Navegación principal">
+        <a href="#collection">Lorem ipsum <span aria-hidden="true">↗</span></a>
+        <a href="#about">Dolor sit amet <span aria-hidden="true">↗</span></a>
+      </nav>
+      <button
+        class="cart-toggle"
+        type="button"
+        data-cart-open
+        hidden
+        aria-label="Abrir carrito de demostración, 0 artículos"
+      >
+        Ipsum <span class="cart-count" data-cart-count>0</span>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">
+            <span class="status-dot"></span> Lorem ipsum / 001
+          </p>
+          <h1 id="hero-title">Lorem ipsum.<br /><em>Dolor</em> sit amet.</h1>
+          <p class="hero-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <a class="button button-dark" href="#collection"
+            >Lorem ipsum <span aria-hidden="true">↗</span></a
+          >
+          <div class="hero-note">
+            <span aria-hidden="true">✳</span>
+            <p>Lorem ipsum dolor sit.<br />Consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-grid"></div>
+          <span class="art-corner top-left">L / I</span>
+          <span class="art-corner top-right">001 — 003</span>
+          <div class="orbit orbit-back"></div>
+          <div class="sculpture">
+            <div class="torus torus-dark"></div>
+            <div class="torus torus-lime"></div>
+          </div>
+          <div class="orbit orbit-front"></div>
+          <div class="art-label">
+            <span>LOREM<br />IPSUM.</span><span>↗</span>
+          </div>
+          <span class="art-corner bottom-left">LOREM / MMXXVI</span>
+          <span class="art-corner bottom-right">DOLOR SIT AMET</span>
+        </div>
+      </section>
+
+      <div class="statement" aria-hidden="true">
+        <span>Lorem ipsum</span><span class="asterisk">✳</span
+        ><span>Dolor sit amet</span><span class="asterisk">✳</span
+        ><span>Consectetur</span><span class="asterisk">✳</span>
+      </div>
+
+      <section
+        class="collection section-shell"
+        id="collection"
+        aria-labelledby="collection-title"
+      >
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / Lorem ipsum</p>
+            <h2 id="collection-title">Ipsum, <em>dolor.</em></h2>
+          </div>
+          <p>Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.</p>
+        </div>
+        <div class="product-grid">
+          <article class="product">
+            <div class="product-art art-one" aria-hidden="true">
+              <span class="product-number">/ 001</span
+              ><span class="product-tag">Lorem ipsum</span>
+              <div class="disc-stack"><i></i><i></i><i></i><i></i><i></i></div>
+              <span class="art-caption">LOREM — IPSUM</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Lorem ipsum</h3>
+                <p>Dolor sit amet</p>
+              </div>
+              <span class="price">48<span>.00</span></span
+              ><button
+                type="button"
+                class="add-button"
+                data-product="lorem"
+                hidden
+                aria-label="Añadir Lorem ipsum al carrito de demostración"
+              >
+                +
+              </button>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product-art art-two" aria-hidden="true">
+              <span class="product-number">/ 002</span
+              ><span class="product-tag">Dolor sit</span>
+              <div class="arch"><div></div></div>
+              <div class="arch-shadow"></div>
+              <span class="art-caption">DOLOR — SIT AMET</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Dolor sit amet</h3>
+                <p>Consectetur elit</p>
+              </div>
+              <span class="price">64<span>.00</span></span
+              ><button
+                type="button"
+                class="add-button"
+                data-product="dolor"
+                hidden
+                aria-label="Añadir Dolor sit amet al carrito de demostración"
+              >
+                +
+              </button>
+            </div>
+          </article>
+          <article class="product">
+            <div class="product-art art-three" aria-hidden="true">
+              <span class="product-number">/ 003</span
+              ><span class="product-tag">Amet elit</span>
+              <div class="pleated-form"></div>
+              <span class="art-caption">CONSECTETUR — ELIT</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <h3>Consectetur</h3>
+                <p>Adipiscing elit</p>
+              </div>
+              <span class="price">32<span>.00</span></span
+              ><button
+                type="button"
+                class="add-button"
+                data-product="amet"
+                hidden
+                aria-label="Añadir Consectetur al carrito de demostración"
+              >
+                +
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        class="about section-shell"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="about-top">
+          <p class="eyebrow">02 / Dolor sit amet</p>
+          <span aria-hidden="true">✳</span>
+        </div>
+        <div class="about-content">
+          <h2 id="about-title">Lorem ipsum.<br /><em>Minus,</em> dolor sit.</h2>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat.
+            </p>
+            <a class="text-link" href="#collection"
+              >Lorem ipsum dolor <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+        <div class="values">
+          <div>
+            <span>01</span>
+            <h3>Lorem ipsum</h3>
+            <p>Dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div>
+            <span>02</span>
+            <h3>Dolor sit amet</h3>
+            <p>Sed do eiusmod tempor incididunt ut labore.</p>
+          </div>
+          <div>
+            <span>03</span>
+            <h3>Consectetur</h3>
+            <p>Ut enim ad minim veniam, quis nostrud.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <div class="footer-top">
+        <a class="wordmark" href="#">lorem<span aria-hidden="true">✳</span></a
+        ><a class="text-link" href="#main"
+          >Lorem ipsum <span aria-hidden="true">↑</span></a
+        >
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Lorem ipsum.</p>
+        <p>Dolor sit amet, consectetur adipiscing elit.</p>
+        <span>Lorem / Ipsum</span>
+      </div>
+    </footer>
+
+    <dialog
+      class="cart-dialog"
+      aria-labelledby="cart-title"
+      aria-describedby="cart-disclaimer"
+    >
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Lorem / Ipsum</p>
+          <h2 id="cart-title">Lorem <em>ipsum.</em></h2>
+        </div>
+        <button
+          type="button"
+          class="close-button"
+          data-cart-close
+          aria-label="Cerrar carrito"
+        >
+          ×
+        </button>
+      </div>
+      <p id="cart-disclaimer" class="sr-only" lang="es">
+        Carrito de demostración. No se realizan compras ni pagos.
+      </p>
+      <p class="cart-empty" data-cart-empty>Lorem ipsum dolor sit amet.</p>
+      <ul class="cart-items" data-cart-items></ul>
+      <div class="cart-summary">
+        <span>Lorem ipsum</span><span data-cart-total>0.00</span>
+      </div>
+      <button
+        type="button"
+        class="button button-dark"
+        data-cart-clear
+        disabled
+        aria-label="Vaciar carrito de demostración"
+      >
+        Dolor sit amet <span aria-hidden="true">↗</span>
+      </button>
+    </dialog>
+    <p
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+      data-cart-status
+      lang="es"
+    ></p>
+  </body>
+</html>
